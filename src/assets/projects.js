@@ -79,8 +79,8 @@ export const projects = [
   {
     title: "Portfolio",
     imageUrl: PortfolioImage,
-    liveLink: "https://example.com/mozak",
-    codeLink: "https://github.com/username/mozak-project"
+    liveLink: "",
+    codeLink: "https://github.com/anshul-singhrajput/Personal_Portfolio"
   },
   {
     title: "Seva Suvidha App",
