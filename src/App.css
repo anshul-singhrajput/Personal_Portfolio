@@ -1,0 +1,76 @@
+/* For devices with screen widths between 768px and 1024px */
+@media (max-width: 1024px) {
+  .right {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .tablet-profile {
+    width: 15rem;   /* Adjust size for smaller devices */
+    height: 20rem;
+  }
+  .right img {
+    width: 15rem;
+    height: auto;
+  }
+  /* Optional: Adjusting other elements if needed */
+  .details {
+    margin-right: 93px;  /* Adjust if needed */
+  }
+}
+
+/* For devices with screen width between 768px and 853px, targeting portrait orientations */
+@media (max-width: 853px) {
+  .right {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .tablet-profile {
+    width: 12rem;
+    height: 12rem;
+  }
+  .right img {
+    width: 12rem;
+    height: auto;
+  }
+}
+
+/* For 768px x 1024px */
+@media (max-width: 768px) and (min-height: 1024px) {
+  .right {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .tablet-profile {
+    width: 13rem;
+    height: 16rem; /* Adjust based on design */
+  }
+  .right img {
+    width: 39rem;
+    height: auto;
+  }
+  .details {
+    margin-right: 50px; /* Reduce margin for better centering */
+  }
+  .about-bg-frame{
+    width: 11rem;
+  }
+}
+
+/* For 820px x 1180px */
+@media (max-width: 820px) and (min-height: 1180px) {
+  .right {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .tablet-profile {
+    width: 14rem;
+    height: 18rem; /* Slightly larger for this resolution */
+  }
+  .right img {
+    width: 37rem;
+    height: auto;
+  }
+  .details {
+    margin-right: 60px; /* Optional tweak */
+  }
+}
