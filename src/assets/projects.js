@@ -79,7 +79,7 @@ export const projects = [
   {
     title: "Portfolio",
     imageUrl: PortfolioImage,
-    liveLink: "",
+    liveLink: "https://portfolioanshul.vercel.app/",
     codeLink: "https://github.com/anshul-singhrajput/Personal_Portfolio"
   },
   {
